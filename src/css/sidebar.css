@@ -1,0 +1,109 @@
+/********************************DASHBOARD SIDEBAR CSS START**********************************/
+
+body {
+  overflow-y: scroll;
+}
+.dash-header {
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 2px 14px #f1f1f1;
+  padding: 0 18px;
+}
+.desh-content {
+  padding: 0 86px 0 0;
+}
+
+.pro-side li {
+  display: inline-block;
+  margin: 0 16px;
+}
+.pro-side li i {
+  font-size: 18px;
+  color: #8a8a8a;
+  vertical-align: sub;
+}
+.dash-sidebar li a i {
+  margin-right: 6px;
+  font-size: 17px;
+  position: relative;
+  top: 2px;
+}
+.pro-side ul {
+  margin-top: 12px;
+}
+.logo-side {
+  margin-top: 16px;
+}
+.dash-sidebar {
+  width: 16%;
+  background: #fff;
+  box-shadow: 1px 2px 14px #f1f1f1;
+  border-radius: 3px;
+  margin-top: 22px;
+}
+.dash-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.dash-sidebar li {
+  float: none;
+}
+.dash-sidebar a {
+  color: #666;
+  text-decoration: none;
+  display: block;
+  padding: 20px 22px;
+  transition: 0.5s;
+}
+.dash-sidebar a:hover {
+  color: #fe9d2a;
+}
+.dash-sidebar a.active {
+  color: #fe9d2a;
+}
+.dash-sidebar ul li ul {
+  margin-left: 30px;
+  /* display: none; */
+  padding: 0;
+}
+.dash-sidebar ul li ul li a {
+  font-size: 13.5px;
+  padding: 12px;
+}
+.dash-data {
+  width: 82%;
+  margin-top: 22px;
+}
+img.manage-u {
+  width: 25px;
+  vertical-align: text-top;
+  margin-right: 1px;
+}
+
+.courses-strip {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 14px #f1f1f1;
+  padding: 10px 22px 10px 22px;
+  font-size: 17px;
+}
+.addnew button {
+  background: transparent;
+  border: 1px solid #fe9d2a;
+  font-size: 14px;
+  border-radius: 50px;
+  color: #fe9d2a;
+  padding: 8px 14px;
+  font-weight: 300;
+}
+.course-side {
+  padding-top: 8px;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+/********************************DASHBOARD SIDEBAR CSS START**********************************/

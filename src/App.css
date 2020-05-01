@@ -1,0 +1,35 @@
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0,40px,0)
+  }
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+    }
+
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+    } 
+
+.owl-item.active.center .level-item .content {
+  animation-name: slideInDown;
+  animation-duration: 1s; /* or: Xms */
+  animation-iteration-count: 1;
+  animation-direction: alternate; /* or: normal */
+  animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+  animation-fill-mode: both; /* or: backwards, both, none */
+  animation-delay: 0s; /* or: Xms */
+}
+
+.PhoneInputCountryIconImg {
+  margin-top: -7px !important;
+}

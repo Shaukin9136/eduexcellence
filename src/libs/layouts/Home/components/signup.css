@@ -1,0 +1,30 @@
+.PhoneInput ~ .control-label {
+  left: 30px !important;
+}
+
+.PhoneInput:focus-within ~ .control-label {
+  font-size: 0.8rem !important;
+  color: #ff9d29 !important;
+  top: -1rem !important;
+  left: 30px !important;
+}
+
+.PhoneInput:focus-within ~ .bar {
+  border-bottom: 1px solid #ff9d29 !important;
+}
+
+.label-focus {
+  font-size: 0.8rem !important;
+  color: #ff9d29 !important;
+  top: -1rem !important;
+  left: 30px !important;
+}
+.bar-focus {
+  border-bottom: 1px solid #ff9d29 !important;
+}
+.PhoneInputCountryIcon--border {
+  background-color: #fff;
+  box-shadow: none;
+}
+.PhoneInputCountryIconImg {margin-top: -7px;}
+.PhoneInputInternationalIconPhone {margin-left: -2px;}
